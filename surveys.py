@@ -52,3 +52,18 @@ surveys = {
     "satisfaction": satisfaction_survey,
     "personality": personality_quiz,
 }
+
+# accessing the first question inside of the satisfaction survey
+
+# print(satisfaction_survey.questions[0].question)
+
+# accessing all questions inside of the satisfaction survey
+# not dynamic
+
+# for x in range(4):
+#     print(satisfaction_survey.questions[x].question)
+
+# not sure why this line doesn't work
+
+# for question in satisfaction_survey.questions:
+    # print(satisfaction_survey.questions[x].question)
