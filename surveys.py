@@ -61,9 +61,9 @@ surveys = {
 # not dynamic
 
 # for x in range(4):
-#     print(satisfaction_survey.questions[x].question)
+#   print(satisfaction_survey.questions[x].question)
 
 # not sure why this line doesn't work
 
-# for question in satisfaction_survey.questions:
+# for x in satisfaction_survey.questions:
     # print(satisfaction_survey.questions[x].question)
