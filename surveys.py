@@ -65,5 +65,5 @@ surveys = {
 
 # not sure why this line doesn't work
 
-# for x in satisfaction_survey.questions:
+# for question in satisfaction_survey.questions:
     # print(satisfaction_survey.questions[x].question)
