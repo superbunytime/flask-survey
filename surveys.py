@@ -53,6 +53,9 @@ surveys = {
     "personality": personality_quiz,
 }
 
+#these are a bunch of (now functional) loops for iterating over the questions class object
+#very cool, thank you Victor for helping me understand it better.
+
 # accessing the first question inside of the satisfaction survey
 
 # print(satisfaction_survey.questions[0].question)
@@ -60,10 +63,21 @@ surveys = {
 # accessing all questions inside of the satisfaction survey
 # not dynamic
 
-# for x in range(4):
+# for x in range (len(satisfaction_survey.questions)):
 #   print(satisfaction_survey.questions[x].question)
 
 # not sure why this line doesn't work
 
-# for question in satisfaction_survey.questions:
-    # print(satisfaction_survey.questions[x].question)
+# for index, x in enumerate(satisfaction_survey.questions):
+#     print(index + 1, x.question, x.choices, x.allow_text)
+    # print(x)
+
+# questions = [{"title": "have you shopped here before", "number": 0}, {"title":"Did someone else shop with you today?", "number": 1}]
+
+# for val in questions:
+#     print(val["title"])
+
+# l1 = ["a", "b", "c"]
+
+# for ltr in l1:
+#     print(ltr)
